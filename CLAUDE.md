@@ -13,6 +13,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ---
 
+## ⛔ CRITICAL: Deployment Safety Rule
+
+**절대 금지 — 리얼 운영 OpenProject에 플러그인을 배포하지 말 것.**
+
+- 모든 개발·검증·테스트는 **개발용 OP 인스턴스**에서만 수행한다.
+- 운영 OP(`openproject-stack-openproject-1`)는 절대 재시작하거나 수정하지 않는다.
+- 개발용 OP는 별도 Docker 컨테이너로 격리 운영한다.
+- 이 규칙은 어떤 상황에서도 예외 없이 적용된다.
+
+```
+개발용 OP  →  플러그인 검증/테스트 허용
+운영 OP    →  접근 금지 (읽기 포함 원칙적 금지)
+```
+
+---
+
 ## Prerequisites
 
 A working OpenProject core development environment is required:

@@ -1,0 +1,16 @@
+en:
+  project_module_op_plugin: 'Op Plugin'
+
+  activerecord:
+    models:
+      op_plugin/entry: 'Op Plugin Entry'
+    attributes:
+      op_plugin/entry:
+        name: 'Name'
+        description: 'Description'
+
+  op_plugin:
+    label_op_plugin: 'Op Plugin'
+    label_op_plugin_plural: 'Op Plugins'
+    no_results_title_text: 'There are no Op Plugin entries yet.'
+    no_results_description_text: 'Start by creating a new Op Plugin entry.'

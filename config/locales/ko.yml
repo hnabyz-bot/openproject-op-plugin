@@ -1,0 +1,16 @@
+ko:
+  project_module_op_plugin: 'Op 플러그인'
+
+  activerecord:
+    models:
+      op_plugin/entry: 'Op 플러그인 항목'
+    attributes:
+      op_plugin/entry:
+        name: '이름'
+        description: '설명'
+
+  op_plugin:
+    label_op_plugin: 'Op 플러그인'
+    label_op_plugin_plural: 'Op 플러그인 목록'
+    no_results_title_text: '아직 Op 플러그인 항목이 없습니다.'
+    no_results_description_text: '새 항목을 생성하여 시작하세요.'
